@@ -36,7 +36,7 @@ public class AdaptadorCarro  extends
     public void onBindViewHolder(CarrosViewHolder holder, int position) {
         Carro c = carros.get(position);
         holder.foto.setImageResource(c.getFoto());
-        holder.placa.setText(c.getPlaca());
+        holder.placa.setText(""+c.getPlaca());
         holder.precio.setText(""+c.getPrecio());
         holder.color.setText(contexto.getResources().getStringArray(R.array.color)[c.getColor()]);
         holder.marca.setText(contexto.getResources().getStringArray(R.array.marca)[c.getMarca()]);
