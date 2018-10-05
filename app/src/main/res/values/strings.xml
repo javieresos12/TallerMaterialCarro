@@ -35,5 +35,6 @@
         <item>@string/kia</item>
         <item>@string/nissan</item>
     </string-array>
+    <string name="Mensaje">Carro Guardado Exitosamente</string>
 
 </resources>
