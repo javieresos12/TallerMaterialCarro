@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">TallerCarro</string>
+    <string name="action_settings">Settings</string>
+    <string name="agregar">Agregar</string>
+    <string name="placa" >Placa</string>
+    <string name="opcion">Debe Escoger un color</string>
+    <string name="blanco">Blanco</string>
+    <string name="rojo">Rojo</string>
+    <string name="Azul">Azul</string>
+    <string name="amarillo">Amarillo</string>
+    
+    <string-array name="color">
+        <item>@string/opcion</item>
+        <item>@string/blanco</item>
+        <item>@string/rojo</item>
+        <item>@string/Azul</item>
+        <item>@string/amarillo</item>
+    </string-array>
+    
+    <string name="chevrolet">Chevrolet</string>
+    <string name="toyota">Toyota</string>
+    <string name="nissan">Nissan</string>
+    <string name="ford">Ford</string>
+    <string name="kia">Kia</string>
+    <string name="opcionmarca">Debe Seleccionar una marca</string>
+    <string name="precio">Precio</string>
+    <string name="guardar">Guardar</string>
+    <string name="limpiar">Limpiar</string>
+
+    <string-array name="marca">
+        <item>@string/opcionmarca</item>
+        <item>@string/chevrolet</item>
+        <item>@string/toyota</item>
+        <item>@string/ford</item>
+        <item>@string/kia</item>
+        <item>@string/nissan</item>
+    </string-array>
+
+</resources>
